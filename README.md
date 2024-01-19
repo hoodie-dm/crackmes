@@ -7,6 +7,7 @@ Place your crackme challenge(s) in your current directory.
 
 ```D
 git clone --depth=1 https://github.com/hoodie-dm/crackmes.git
+cd crackmes
 docker build -t crackme .
 cd ..
 docker run --rm -it -v $(pwd):/crackme crackme
