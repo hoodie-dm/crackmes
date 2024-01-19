@@ -3,6 +3,7 @@ FROM amd64/debian:sid-slim
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       binutils \
+      ca-certificates \
       curl \
       file \
       gdb \
